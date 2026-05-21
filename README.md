@@ -31,7 +31,7 @@ How to Run
 2. Build the project.
 3. Click Start to run the chatbot.
 
- Author
+
 Madoba Sunnyboy
 
  Purpose
