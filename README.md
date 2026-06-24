@@ -1,38 +1,129 @@
- Cybersecurity Awareness Bot
+# Cybersecurity Awareness Chatbot (WPF)
 
- Overview
-This project is a Cybersecurity Awareness Chatbot developed in C# using Visual Studio.
+## Overview
 
-The chatbot helps educate users about important cybersecurity topics such as:
-- Password Safety
-- Phishing
-- Malware
-- VPN
-- Two-Factor Authentication (2FA)
-- Ransomware
-- Social Engineering
-- Safe Browsing
+The Cybersecurity Awareness Chatbot is a desktop application developed using C# and WPF. The chatbot educates users about important cybersecurity topics and provides interactive features such as quizzes, task management, conversation history, and activity logging.
 
- Features
-- Interactive chatbot conversation
-- Cybersecurity awareness tips
-- ASCII art logo
-- User memory functionality
-- Personalized responses
-- Console-based interface
+The application is designed to improve cybersecurity awareness while demonstrating object-oriented programming, file handling, database integration, and graphical user interface development.
 
- Technologies Used
-- C#
-- .NET
-- Visual Studio 2022
+---
 
-How to Run
+## Features
+
+### Cybersecurity Topics
+
+The chatbot provides information about:
+
+* Password Safety
+* Phishing Attacks
+* Safe Browsing
+* Malware
+* Social Engineering
+* Two-Factor Authentication (2FA)
+
+### Interactive Quiz
+
+* Multiple choice cybersecurity quiz
+* Immediate feedback for each answer
+* Score calculation
+* Percentage score at the end
+
+### Task Assistant
+
+Users can:
+
+* Add tasks
+* View tasks
+* Delete tasks
+
+### Activity Log
+
+* Records chatbot activities
+* Stores activities in SQLite database
+* Displays recent activity history
+
+### Conversation History
+
+* Stores chat messages
+* Displays previous conversations
+* Exports conversations to a TXT file
+
+### User Memory
+
+The chatbot remembers:
+
+* User name
+* Favourite cybersecurity topic
+
+---
+
+## Technologies Used
+
+* C#
+* WPF (Windows Presentation Foundation)
+* SQLite Database
+* XAML
+* .NET
+
+---
+
+## Database Tables
+
+### ActivityLog
+
+| Field       | Type    |
+| ----------- | ------- |
+| Id          | Integer |
+| UserMessage | Text    |
+| BotResponse | Text    |
+| TimeStamp   | Text    |
+
+### Tasks
+
+| Field    | Type    |
+| -------- | ------- |
+| Id       | Integer |
+| TaskName | Text    |
+
+---
+
+## Screenshots
+
+### Main Interface
+
+* Chat area
+* User input textbox
+* Send button
+* Cybersecurity logo
+
+---
+
+## How to Run
+
 1. Open the solution in Visual Studio.
-2. Build the project.
-3. Click Start to run the chatbot.
+2. Restore NuGet packages.
+3. Build the project.
+4. Run the application.
+5. Start chatting with the Cybersecurity Chatbot.
 
+---
 
-Madoba Sunnyboy
+## Example Commands
 
- Purpose
-The purpose of this chatbot is to promote cybersecurity awareness and help users stay safe online.
+* start quiz
+* add task
+* show tasks
+* delete task
+* show activity log
+* conversation history
+* save conversation
+
+---
+
+## Author
+
+**Madoba Sunnyboy**
+
+Cybersecurity Awareness Chatbot
+Part 3 Final Project
+
